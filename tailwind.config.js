@@ -68,6 +68,14 @@ module.exports = {
                     900: '#fff7d5',
                 },
             },
+            // animation: {
+            //     gradient: 'gradient 8s linear infinite',
+            // },
+            // keyframes: {
+            //     gradient: {
+            //         to: { 'background-position': '200% center' },
+            //     },
+            // },
         },
     },
     plugins: [],

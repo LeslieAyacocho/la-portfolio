@@ -1,11 +1,15 @@
 import Container from '@/components/ui/container'
+import Card from '@/components/ui/card'
 
 const WebDevelopments = () => {
     return (
-        <div className='flex justify-center w-full bg-li-orange'>
+        <div id='web-development' className='flex justify-center w-full bg-li-orange'>
             <Container>
-                <div className='flex flex-col w-full p-16 md:flex-row gap-x-10'>
-                    Web Developments
+                <div className='px-8 py-3 border bg-li-white w-max border-li-black'>
+                    <h2 className='text-2xl font-semibold text-li-black'>Web Developments</h2>
+                </div>
+                <div>
+                    <Card />
                 </div>
             </Container>
         </div>
