@@ -1,15 +1,14 @@
 import Image from 'next/image'
 
-const Card = ({ title, description, children }) => {
+const Card = ({ title, description, image }) => {
     return (
-        <div className='bg-white border w-max border-li-black'>
-            <div className='w-[30rem] h-[30rem] overflow-hidden'>
-                <Image src='/img/main.png' width={1280} height={853} className='object-cover w-full h-full' />
+        <div className='w-full bg-white border divide-y cursor-pointer border-li-black divide-li-black'>
+            <div className='overflow-hidden'>
+                <Image src={`/img${image}`} width={600} height={600} className='object-cover w-full h-full' />
             </div>
-
-            <div>
-                <h3>{title}</h3>
-                <h3>{description}</h3>
+            <div className='p-5'>
+                <h3 className='text-lg font-semibold tracking-tight uppercase md:text-2xl text-li-black'>{title}</h3>
+                <p className='text-sm md:text-base text-li-black-600'>{description}</p>
             </div>
         </div>
     )
