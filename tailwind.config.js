@@ -7,20 +7,9 @@ module.exports = {
                 mono: ['GT Pressura Mono, monospace'],
             },
             colors: {
-                'li-white': {
-                    DEFAULT: '#E8E7D5',
-                    100: '#393820',
-                    200: '#72703f',
-                    300: '#a8a562',
-                    400: '#c8c69b',
-                    500: '#e8e7d5',
-                    600: '#ecebdd',
-                    700: '#f1f0e5',
-                    800: '#f6f5ee',
-                    900: '#fafaf6',
-                },
+                'li-white': '#e9e4d9',
                 'li-black': {
-                    DEFAULT: '#312F32',
+                    DEFAULT: '#3a3a3a',
                     100: '#0a090a',
                     200: '#141314',
                     300: '#1d1c1e',
@@ -67,15 +56,8 @@ module.exports = {
                     800: '#ffeeab',
                     900: '#fff7d5',
                 },
+                'li-blue': '#3085C3',
             },
-            // animation: {
-            //     gradient: 'gradient 8s linear infinite',
-            // },
-            // keyframes: {
-            //     gradient: {
-            //         to: { 'background-position': '200% center' },
-            //     },
-            // },
         },
     },
     plugins: [],
