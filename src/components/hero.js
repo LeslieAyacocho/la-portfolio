@@ -17,7 +17,7 @@ const Hero = () => {
                 <nav className='flex justify-end w-full py-4'>
                     <div className='hidden text-xl tracking-tight gap-x-8 text-li-white md:flex'>
                         {NAVIGATION?.map((item, index) => (
-                            <Link key={`desktop-nav-${index}`} href={item?.href} className='font-semibold uppercase hover:text-li-black'>
+                            <Link key={`desktop-nav-${index}`} href={item?.href} className='font-semibold uppercase'>
                                 {item?.name}
                             </Link>
                         ))}
