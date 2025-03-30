@@ -56,7 +56,7 @@ module.exports = {
                     800: '#ffeeab',
                     900: '#fff7d5',
                 },
-                'li-blue': '#3085C3',
+                'li-blue': '#0C2D57',
             },
         },
     },
