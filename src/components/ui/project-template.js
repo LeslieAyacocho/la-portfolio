@@ -43,7 +43,6 @@ const ProjectTemplate = ({ data }) => {
                         <div className='p-2 bg-white text-li-black'>
                             {data?.url?.map((item, index) => (
                                 <div key={index} className='flex items-center uppercase'>
-                                    {/* <GlobeAltIcon className='w-6 h-6'/> */}
                                     <a href={item.link} target='_blank' rel='noopener noreferrer'>
                                         {item.text}
                                     </a>
