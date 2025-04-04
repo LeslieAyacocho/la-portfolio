@@ -1,0 +1,55 @@
+{
+    "apracsi": {
+        "title": "APRACSI",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "role": ["Web Designer", "Web Developer"],
+        "url": [
+            { "text": "Figma", "link": "https://www.figma.com/design/eQa0mzCCH3SajMTKOSHgD0/GK-USA?node-id=0-1&t=UnT44fqY13XBIYkF-1" },
+            { "text": "Website", "link": "https://sample.com" }
+        ],
+        "img": [
+            { "link": "/web-design/apracsi/apracsi-1.png", "width": 2000, "height": 1333 },
+            { "link": "/web-design/apracsi/apracsi-2.png", "width": 1440, "height": 5633 }
+        ]
+    },
+    "gk-usa": {
+        "title": "GK - USA",
+        "about": "For 13 years, GK USA has been a lead mission partner to the main Gawad Kalinga organization in the Philippines, helping create many initiatives to help end poverty in various areas in the Philippines by building caring and sharing communities. They employ an integrated and holistic approach with values formation and leadership development at its core, which makes them different from other NGOs that focus solely on the economic facets of poverty-reduction.",
+        "role": ["Web Designer"],
+        "url": [
+            { "text": "Figma", "link": "https://www.figma.com/design/eQa0mzCCH3SajMTKOSHgD0/GK-USA?node-id=0-1&t=CKDGmg436ewhhLCU-1" }
+        ],
+        "img": [
+            { "link": "/web-design/gk-usa/gkusa-1.png", "width": 2000, "height": 1333 },
+            { "link": "/web-design/gk-usa/gkusa-2.png", "width": 1920, "height": 6248 }
+        ]
+    },
+    "csapi": {
+        "title": "Curriculum Studies Association of the Philippines Inc. (CSAPI)",
+        "about": "The Curriculum Studies Association of the Philippines, Inc. (CSAPI) is a professional organization established to be the premier community of curriculum studies experts in the Philippines. The organization was established with the aim to promote the development and professionalization of curriculum studies in the Philippines.",
+        "role": ["Web Designer"],
+        "url": [
+            { "text": "Figma", "link": "https://www.figma.com/design/0XYlyxHqejp2KAiSvQ34zh/CSAPI?node-id=0-1&t=Hy0IgrIwj5WJHO3u-1" },
+            { "text": "Website", "link": "https://csapi.org.ph/" }
+        ],
+        "img": [
+            { "link": "/web-design/csapi/csapi-1.png", "width": 2000, "height": 1333 },
+            { "link": "/web-design/csapi/csapi-2.png", "width": 1440, "height": 7708 }
+        ]
+    },
+    "cliqq": {
+        "title": "CLIQQ - Redesign",
+        "about": "CLiQQ Rewards is 7-Eleven's loyalty program. Customers Earn points by presenting a loyalty barcode every time they buy at 7-Eleven. (NOTE: This is not affiliated with Cliqq by 7-Eleven in any way. This purpose is only to enhance my design skills in mobile design by redesigning the current mobile application.)",
+        "role": ["Web Designer"],
+        "url": [
+            { "text": "Figma Prototype", "link": "https://www.figma.com/proto/pFrPjjP9B7NFd3gJljCF2c/CLiQQ---Redesign?node-id=4-28" }
+        ],
+        "img": [
+            { "link": "/web-design/cliqq/cliqq-1.png", "width": 2000, "height": 1333 },
+            { "link": "/web-design/cliqq/cliqq1.png", "width": 2880, "height": 1720 },
+            { "link": "/web-design/cliqq/cliqq2.png", "width": 2880, "height": 1720 },
+            { "link": "/web-design/cliqq/cliqq3.png", "width": 2880, "height": 1720 },
+            { "link": "/web-design/cliqq/cliqq4.png", "width": 2880, "height": 1720 }
+        ]
+    }
+}

@@ -13,9 +13,15 @@ const WebDesigns = () => {
                     <Link href='/project/apracsi'>
                         <Card image={'/web-design/apracsi.png'} title='APRACSI' description='2024' />
                     </Link>
-                    <Card image={'/web-design/gk-usa.png'} title='GK - USA' description='2023' />
-                    <Card image={'/web-design/csapi.png'} title='CSAPI' description='2023' />
-                    <Card image={'/web-design/cliqq.png'} title='CLiQQ - Redesign' description='2022' />
+                    <Link href='/project/gk-usa'>
+                        <Card image={'/web-design/gk-usa.png'} title='GK - USA' description='2023' />
+                    </Link>
+                    <Link href='/project/csapi'>
+                        <Card image={'/web-design/csapi.png'} title='CSAPI' description='2023' />
+                    </Link>
+                    <Link href='/project/cliqq'>
+                        <Card image={'/web-design/cliqq.png'} title='CLiQQ - Redesign' description='2022' />
+                    </Link>
                 </div>
             </Container>
         </section>
