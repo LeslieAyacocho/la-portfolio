@@ -7,9 +7,7 @@ const ProjectTemplate = ({ data }) => {
                 <h2 className='text-4xl font-semibold uppercase text-li-white'>{data?.title}</h2>
             </div>
             <div className='max-w-screen-lg px-2 '>
-                {/* <div className='px-4 py-2 border border-li-black bg-li-blue w-max'> */}
                 <h3 className='text-xl font-semibold uppercase text-li-black'>About</h3>
-                {/* </div> */}
                 <p className='py-3 text-lg'>{data?.about}</p>
             </div>
             <div className='flex w-full max-w-screen-lg gap-x-8'>
@@ -58,7 +56,6 @@ const ProjectTemplate = ({ data }) => {
                         <Image src={`/img${item?.link}`} width={item?.width} height={item?.height} className='object-cover w-full h-full' />
                     </div>
                 ))}
-                O
             </div>
         </div>
     )
