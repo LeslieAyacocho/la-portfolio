@@ -9,7 +9,7 @@ const WebDesigns = () => {
                 <div className='px-8 py-3 border bg-li-blue w-max border-li-black'>
                     <h2 className='text-2xl font-medium uppercase text-li-white'>Web Design</h2>
                 </div>
-                <div className='grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-4 md:gap-10'>
+                <div className='grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3 md:gap-10'>
                     <Link href='/project/apracsi'>
                         <Card image={'/web-design/apracsi.png'} title='APRACSI' description='2024' />
                     </Link>
