@@ -6,11 +6,12 @@ const ProjectTemplate = ({ data }) => {
             <div className='px-2'>
                 <h2 className='text-4xl font-bold text-li-black'>{data?.title}</h2>
             </div>
-            <div className='px-2'>
-                <h3 className='text-xl font-semibold uppercase text-li-black'>About</h3>
-                <p className='py-3 text-lg'>{data?.about}</p>
-            </div>
-
+            {data?.about && (
+                <div className='px-2'>
+                    <h3 className='text-xl font-semibold uppercase text-li-black'>About</h3>
+                    <p className='py-3 text-lg'>{data?.about}</p>
+                </div>
+            )}
             <div className='flex flex-col gap-y-4'>
                 {data?.role && (
                     <div className='px-2 w-full'>
@@ -38,7 +39,9 @@ const ProjectTemplate = ({ data }) => {
                         <ul className='p-2 flex flex-col gap-y-1'>
                             {data?.url.map((item) => (
                                 <li className='underline'>
-                                    <a href={item?.link}>{item?.text}</a>
+                                    <a href={item?.link} target='_blank'>
+                                        {item?.text}
+                                    </a>
                                 </li>
                             ))}
                         </ul>
