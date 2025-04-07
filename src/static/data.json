@@ -1,11 +1,11 @@
 {
     "apracsi": {
-        "title": "APRACSI",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        "role": ["Web Designer", "Web Developer"],
+        "title": "The Asia Pacific Research Association on Curriculum Studies, Inc. (APRACSI)",
+        "about": "The Asia Pacific Research Association on Curriculum Studies, Inc. (APRACSI) started as an initiative of a group of enthusiastic Curriculum Studies students, with help of their area adviser, in the University of the Philippines, Diliman, Quezon City early in 2017. The Asia Pacific Conference on Curriculum Studies and Instructional Designing (APCCSID) was the first focus of this group of people during that formative period, but seeing the need to establish a professional organization to anchor the future long term goals of the conference, the APRACSI was soon formed.",
+        "role": ["Web Designer"],
         "url": [
             { "text": "Figma", "link": "https://www.figma.com/design/eQa0mzCCH3SajMTKOSHgD0/GK-USA?node-id=0-1&t=UnT44fqY13XBIYkF-1" },
-            { "text": "Website", "link": "https://sample.com" }
+            { "text": "Website", "link": "https://apracsi.org/" }
         ],
         "img": [
             { "link": "/web-design/apracsi/apracsi-1.png", "width": 2000, "height": 1333 },
@@ -13,12 +13,10 @@
         ]
     },
     "gk-usa": {
-        "title": "GK - USA",
-        "about": "For 13 years, GK USA has been a lead mission partner to the main Gawad Kalinga organization in the Philippines, helping create many initiatives to help end poverty in various areas in the Philippines by building caring and sharing communities. They employ an integrated and holistic approach with values formation and leadership development at its core, which makes them different from other NGOs that focus solely on the economic facets of poverty-reduction.",
+        "title": "Gawad Kalinga - USA",
+        "about": "Gawad Kalinga translated in English means 'to give care.' Its approach to attacking poverty began with building a cluster of homes in communities. Residents go through a values formation program that focuses on restoring dignity and self-worth. GK raises funds to help the marginalized build permanent homes with the latter contributing their sweat equity. GK opens access to education, more secure employment or livelihood opportunities and health and well-being.",
         "role": ["Web Designer"],
-        "url": [
-            { "text": "Figma", "link": "https://www.figma.com/design/eQa0mzCCH3SajMTKOSHgD0/GK-USA?node-id=0-1&t=CKDGmg436ewhhLCU-1" }
-        ],
+        "url": [{ "text": "Figma", "link": "https://www.figma.com/design/eQa0mzCCH3SajMTKOSHgD0/GK-USA?node-id=0-1&t=CKDGmg436ewhhLCU-1" }],
         "img": [
             { "link": "/web-design/gk-usa/gkusa-1.png", "width": 2000, "height": 1333 },
             { "link": "/web-design/gk-usa/gkusa-2.png", "width": 1920, "height": 6248 }
@@ -41,9 +39,7 @@
         "title": "CLIQQ - Redesign",
         "about": "CLiQQ Rewards is 7-Eleven's loyalty program. Customers Earn points by presenting a loyalty barcode every time they buy at 7-Eleven. (NOTE: This is not affiliated with Cliqq by 7-Eleven in any way. This purpose is only to enhance my design skills in mobile design by redesigning the current mobile application.)",
         "role": ["Web Designer"],
-        "url": [
-            { "text": "Figma Prototype", "link": "https://www.figma.com/proto/pFrPjjP9B7NFd3gJljCF2c/CLiQQ---Redesign?node-id=4-28" }
-        ],
+        "url": [{ "text": "Figma Prototype", "link": "https://www.figma.com/proto/pFrPjjP9B7NFd3gJljCF2c/CLiQQ---Redesign?node-id=4-28" }],
         "img": [
             { "link": "/web-design/cliqq/cliqq-1.png", "width": 2000, "height": 1333 },
             { "link": "/web-design/cliqq/cliqq1.png", "width": 2880, "height": 1720 },
