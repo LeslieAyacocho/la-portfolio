@@ -52,7 +52,7 @@ const ProjectTemplate = ({ data }) => {
                 {data?.img?.map((item, index) => (
                     <div key={`img-${index}`} className='text-li-black'>
                         <Image
-                            src={`/img${item?.link}`}
+                            src={`/la-portfolio/img${item?.link}`}
                             width={item?.width}
                             height={item?.height}
                             className='object-cover w-full h-full'
