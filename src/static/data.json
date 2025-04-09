@@ -47,5 +47,30 @@
             { "link": "/web-design/cliqq/cliqq3.png", "width": 2880, "height": 1720 },
             { "link": "/web-design/cliqq/cliqq4.png", "width": 2880, "height": 1720 }
         ]
+    },
+    "oats": {
+        "title": "Online Archiving Thesis System (OATS)",
+        "about": "The Online Archiving Thesis System (OATS) is a website that has a catalog of all the theses of graduated students from the Technological University of the Philippines Taguig (TUP-Taguig). This system is an output for IT Project Capstone 2.",
+        "role": ["Full Stack Web Developer", "UI/UX Designer"],
+        "url": [{ "text": "Github Sourcecode", "link": "https://github.com/LeslieAyacocho/oatsweb" }],
+        "tech": ["React JS", "Express", "Node.js", "MongoDB", "Bootstrap", "Chart.js"],
+        "img": [
+            { "link": "/web-development/oats/oats-1.png", "width": 3600, "height": 2250 },
+            { "link": "/web-development/oats/oats-2.png", "width": 3600, "height": 2250 },
+            { "link": "/web-development/oats/oats-3.png", "width": 3600, "height": 2250 },
+            { "link": "/web-development/oats/oats-4.png", "width": 3600, "height": 2250 }
+        ]
+    },
+    "cryptonews": {
+        "title": "CryptoNews",
+        "about": "CryptoNews is a system output for System Architecture and Integration Course (TUP-T 2021)",
+        "role": ["Full Stack Web Developer", "UI/UX Designer"],
+        "url": [{ "text": "Github Sourcecode", "link": "https://github.com/LeslieAyacocho/API-cryptosnews" }],
+        "tech": ["JQuery", "Laravel", "MySQL", "Google Charts", "Bootstrap", "CryptoCompare News & CoinRanking API"],
+        "img": [
+            { "link": "/web-development/cryptonews/crypto-1.png", "width": 3600, "height": 2250 },
+            { "link": "/web-development/cryptonews/crypto-2.png", "width": 3600, "height": 2250 },
+            { "link": "/web-development/cryptonews/crypto-3.png", "width": 3600, "height": 2250 }
+        ]
     }
 }
