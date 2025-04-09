@@ -52,7 +52,7 @@ const ProjectTemplate = ({ data }) => {
                 {data?.img?.map((item, index) => (
                     <div key={`img-${index}`} className='text-li-black'>
                         <Image
-                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/img${item?.link}`}
+                            src={`/img${item?.link}`}
                             width={item?.width}
                             height={item?.height}
                             className='object-cover w-full h-full'
