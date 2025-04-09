@@ -14,9 +14,9 @@ const ProjectTemplate = ({ data }) => {
             )}
             <div className='flex flex-col gap-y-4'>
                 {data?.role && (
-                    <div className='px-2 w-full'>
+                    <div className='w-full px-2'>
                         <h3 className='text-xl font-semibold uppercase text-li-black'>Roles</h3>
-                        <ul className='p-2 flex flex-col gap-y-1'>
+                        <ul className='flex flex-col p-2 gap-y-1'>
                             {data?.role.map((item) => (
                                 <li>{item}</li>
                             ))}
@@ -24,9 +24,9 @@ const ProjectTemplate = ({ data }) => {
                     </div>
                 )}
                 {data?.tech && (
-                    <div className='px-2 w-full'>
+                    <div className='w-full px-2'>
                         <h3 className='text-xl font-semibold uppercase text-li-black'>Technologies Used</h3>
-                        <ul className='p-2 flex flex-col gap-y-1'>
+                        <ul className='flex flex-col p-2 gap-y-1'>
                             {data?.tech.map((item) => (
                                 <li>{item}</li>
                             ))}
@@ -34,9 +34,9 @@ const ProjectTemplate = ({ data }) => {
                     </div>
                 )}
                 {data?.url && (
-                    <div className='px-2 w-full'>
+                    <div className='w-full px-2'>
                         <h3 className='text-xl font-semibold uppercase text-li-black'>Links</h3>
-                        <ul className='p-2 flex flex-col gap-y-1'>
+                        <ul className='flex flex-col p-2 gap-y-1'>
                             {data?.url.map((item) => (
                                 <li className='underline'>
                                     <a href={item?.link} target='_blank'>
@@ -51,7 +51,12 @@ const ProjectTemplate = ({ data }) => {
             <div>
                 {data?.img?.map((item, index) => (
                     <div key={`img-${index}`} className='text-li-black'>
-                        <Image src={`/img${item?.link}`} width={item?.width} height={item?.height} className='object-cover w-full h-full' />
+                        <Image
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/img${item?.link}`}
+                            width={item?.width}
+                            height={item?.height}
+                            className='object-cover w-full h-full'
+                        />
                     </div>
                 ))}
             </div>
